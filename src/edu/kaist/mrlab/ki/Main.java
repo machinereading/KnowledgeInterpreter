@@ -266,6 +266,8 @@ public class Main {
 			}
 
 		}
+		
+		bw.close();
 
 	}
 }
