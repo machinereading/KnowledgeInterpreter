@@ -103,6 +103,9 @@ public class Main {
 			allIns.add(ins);
 
 		}
+		
+		b2k.close();
+		cnn.close();
 	}
 
 	public void showTopN(int N) {
@@ -205,7 +208,7 @@ public class Main {
 	}
 
 	private static Path CNNInputPath = Paths.get("/test/wjd1004109/RE_cnn/dir-out_all/");
-	private static Path B2KInputPath = Paths.get("/test/wjd1004109/PL-Web-Demo/out_tmp");
+	private static Path B2KInputPath = Paths.get("/test/wjd1004109/PL-Web-Demo/out_tmp/");
 
 	private static ArrayList<String> CNNFileList;
 	private static ArrayList<Path> CNNFilePathList;
